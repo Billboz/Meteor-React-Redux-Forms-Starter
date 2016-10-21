@@ -46,14 +46,16 @@ apm install linter-eslint
 
 8. Now go type some jibberish into a .js file to see if you get a bunch of errors.  Cool huh!
 9. Enter the following commands in terminal:
-10. ```npm install bootstrap@4.0.0-alpha.5``` [LINK TO SOURCE](https://v4-alpha.getbootstrap.com/getting-started/download/)
-11. ```meteor npm install --save react react-dom``` [LINK TO SOURCE](https://guide.meteor.com/react.html#using-with-meteor)
-12. ```meteor npm install --save react-router``` [LINK TO SOURCE](https://guide.meteor.com/react.html#using-react-router)
-13. ```meteor add react-meteor-data``` [LINK TO SOURCE](https://atmospherejs.com/meteor/react-meteor-data)
-14. ```npm install --save redux-form``` [LINK TO SOURCE](https://github.com/erikras/redux-form)
+10. ```npm install bootstrap@4.0.0-alpha.5``` &nbsp;&nbsp;&nbsp;&nbsp;[LINK TO SOURCE](https://v4-alpha.getbootstrap.com/getting-started/download/)
+11. ```meteor npm install --save react react-dom``` &nbsp;&nbsp;&nbsp;&nbsp;[LINK TO SOURCE](https://guide.meteor.com/react.html#using-with-meteor)
+12. ```meteor npm install --save react-router``` &nbsp;&nbsp;&nbsp;&nbsp;[LINK TO SOURCE](https://guide.meteor.com/react.html#using-react-router)
+13. ```meteor add react-meteor-data``` &nbsp;&nbsp;&nbsp;&nbsp;[LINK TO SOURCE](https://atmospherejs.com/meteor/react-meteor-data)
+14. ```npm install --save redux-form``` &nbsp;&nbsp;&nbsp;&nbsp;[LINK TO SOURCE](https://github.com/erikras/redux-form)
+
 Time for a break since two dependencies didn't get installed.
 ```
 ├── UNMET PEER DEPENDENCY react-redux@^4.3.0 || ^5.0.0-beta
 ├── UNMET PEER DEPENDENCY redux@^3.0.0
 ```
-I tried a few things and I can't seem to get these two installed.  It's late and I think I am gong to bed... Try again tomorrow
+So I tried to ```npm install --save react-redux@^4.3.0 || ^5.0.0-beta``` and the other one and both failed.  After reading what people have done with similar problems I just ran ```npm install --save redux``` and ```npm install --save redux-form``` and ```npm install --save react-redux``` again and this time they all installed without issue!!
+15. 
