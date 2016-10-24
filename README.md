@@ -58,4 +58,7 @@ Time for a break since two dependencies didn't get installed.
 ├── UNMET PEER DEPENDENCY redux@^3.0.0
 ```
 So I tried to ```npm install --save react-redux@^4.3.0 || ^5.0.0-beta``` and the other one and both failed.  After reading what people have done with similar problems I just ran ```npm install --save redux``` and ```npm install --save redux-form``` and ```npm install --save react-redux``` again and this time they all installed without issue!!
-15. 
+
+15. ```meteor add accounts-ui``` adds a ton of accounts related packages
+16. I tried to run ```meteor``` and got a giant error that said a dependency for ```react-meteor-data``` did not get installed.  I ran ```npm install --save react-addons-pure-render-mixin@15.x``` and now the meteor server is up and running. 
+16. Now might be a good time to remove ```insecure```
